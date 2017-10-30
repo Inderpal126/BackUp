@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A41E4FBE1F605C4B000C2F8A /* VC_Home.m in Sources */ = {isa = PBXBuildFile; fileRef = A41E4FBD1F605C4B000C2F8A /* VC_Home.m */; };
+		A4292B171F59C89400409331 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4292B161F59C89400409331 /* main.m */; };
+		A4292B1A1F59C89400409331 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4292B191F59C89400409331 /* AppDelegate.m */; };
+		A4292B1D1F59C89400409331 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4292B1C1F59C89400409331 /* ViewController.m */; };
+		A4292B201F59C89400409331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4292B1E1F59C89400409331 /* Main.storyboard */; };
+		A4292B231F59C89400409331 /* BackUp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4292B211F59C89400409331 /* BackUp.xcdatamodeld */; };
+		A4292B251F59C89400409331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4292B241F59C89400409331 /* Assets.xcassets */; };
+		A4292B281F59C89400409331 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4292B261F59C89400409331 /* LaunchScreen.storyboard */; };
+		A4292B321F59C9AC00409331 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4292B301F59C9AC00409331 /* Contacts.framework */; };
+		A4292B331F59C9AC00409331 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4292B311F59C9AC00409331 /* ContactsUI.framework */; };
+		A4292B401F59D08000409331 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = A4292B361F59D08000409331 /* OFL.txt */; };
+		A4292B411F59D08000409331 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4292B371F59D08000409331 /* Raleway-Bold.ttf */; };
+		A4292B421F59D08000409331 /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4292B381F59D08000409331 /* Raleway-ExtraBold.ttf */; };
+		A4292B431F59D08000409331 /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4292B391F59D08000409331 /* Raleway-ExtraLight.ttf */; };
+		A4292B441F59D08000409331 /* Raleway-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4292B3A1F59D08000409331 /* Raleway-Heavy.ttf */; };
+		A4292B451F59D08000409331 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4292B3B1F59D08000409331 /* Raleway-Light.ttf */; };
+		A4292B461F59D08000409331 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4292B3C1F59D08000409331 /* Raleway-Medium.ttf */; };
+		A4292B471F59D08000409331 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4292B3D1F59D08000409331 /* Raleway-Regular.ttf */; };
+		A4292B481F59D08000409331 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4292B3E1F59D08000409331 /* Raleway-SemiBold.ttf */; };
+		A4292B491F59D08000409331 /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4292B3F1F59D08000409331 /* Raleway-Thin.ttf */; };
+		A4292B4E1F59D90100409331 /* singleton_CommonUI.m in Sources */ = {isa = PBXBuildFile; fileRef = A4292B4D1F59D90100409331 /* singleton_CommonUI.m */; };
+		ADC4862FED83ED736EEC5CE1 /* libPods-BackUp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E30504850C2C2BE1C55F1F /* libPods-BackUp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48ABF5296F36EF930851088D /* Pods-BackUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BackUp/Pods-BackUp.debug.xcconfig"; sourceTree = "<group>"; };
+		57E30504850C2C2BE1C55F1F /* libPods-BackUp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BackUp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		892EB53001DE2908D04ADC9A /* Pods-BackUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackUp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BackUp/Pods-BackUp.release.xcconfig"; sourceTree = "<group>"; };
+		A41E4FBC1F605C4B000C2F8A /* VC_Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_Home.h; sourceTree = "<group>"; };
+		A41E4FBD1F605C4B000C2F8A /* VC_Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_Home.m; sourceTree = "<group>"; };
+		A4292B121F59C89400409331 /* BackUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4292B161F59C89400409331 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4292B181F59C89400409331 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4292B191F59C89400409331 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4292B1B1F59C89400409331 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A4292B1C1F59C89400409331 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A4292B1F1F59C89400409331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4292B221F59C89400409331 /* BackUp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BackUp.xcdatamodel; sourceTree = "<group>"; };
+		A4292B241F59C89400409331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4292B271F59C89400409331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4292B291F59C89400409331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4292B301F59C9AC00409331 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		A4292B311F59C9AC00409331 /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
+		A4292B341F59C9C200409331 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A4292B361F59D08000409331 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		A4292B371F59D08000409331 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		A4292B381F59D08000409331 /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A4292B391F59D08000409331 /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLight.ttf"; sourceTree = "<group>"; };
+		A4292B3A1F59D08000409331 /* Raleway-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Heavy.ttf"; sourceTree = "<group>"; };
+		A4292B3B1F59D08000409331 /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		A4292B3C1F59D08000409331 /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		A4292B3D1F59D08000409331 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		A4292B3E1F59D08000409331 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		A4292B3F1F59D08000409331 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		A4292B4C1F59D90100409331 /* singleton_CommonUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = singleton_CommonUI.h; sourceTree = "<group>"; };
+		A4292B4D1F59D90100409331 /* singleton_CommonUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = singleton_CommonUI.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4292B0F1F59C89400409331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4292B321F59C9AC00409331 /* Contacts.framework in Frameworks */,
+				A4292B331F59C9AC00409331 /* ContactsUI.framework in Frameworks */,
+				ADC4862FED83ED736EEC5CE1 /* libPods-BackUp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A41E4FBB1F605C4B000C2F8A /* VC_Home */ = {
+			isa = PBXGroup;
+			children = (
+				A41E4FBC1F605C4B000C2F8A /* VC_Home.h */,
+				A41E4FBD1F605C4B000C2F8A /* VC_Home.m */,
+			);
+			path = VC_Home;
+			sourceTree = "<group>";
+		};
+		A4292B091F59C89400409331 = {
+			isa = PBXGroup;
+			children = (
+				A4292B141F59C89400409331 /* BackUp */,
+				A4292B351F59D08000409331 /* raleway */,
+				A4292B4A1F59D90100409331 /* Singletons */,
+				A4292B131F59C89400409331 /* Products */,
+				A4292B2F1F59C9AC00409331 /* Frameworks */,
+				B16406AA1BF7151E2EBC2713 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A4292B131F59C89400409331 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4292B121F59C89400409331 /* BackUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4292B141F59C89400409331 /* BackUp */ = {
+			isa = PBXGroup;
+			children = (
+				A41E4FBB1F605C4B000C2F8A /* VC_Home */,
+				A4292B181F59C89400409331 /* AppDelegate.h */,
+				A4292B191F59C89400409331 /* AppDelegate.m */,
+				A4292B1B1F59C89400409331 /* ViewController.h */,
+				A4292B1C1F59C89400409331 /* ViewController.m */,
+				A4292B1E1F59C89400409331 /* Main.storyboard */,
+				A4292B241F59C89400409331 /* Assets.xcassets */,
+				A4292B261F59C89400409331 /* LaunchScreen.storyboard */,
+				A4292B291F59C89400409331 /* Info.plist */,
+				A4292B211F59C89400409331 /* BackUp.xcdatamodeld */,
+				A4292B151F59C89400409331 /* Supporting Files */,
+				A4292B341F59C9C200409331 /* PrefixHeader.pch */,
+			);
+			path = BackUp;
+			sourceTree = "<group>";
+		};
+		A4292B151F59C89400409331 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4292B161F59C89400409331 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4292B2F1F59C9AC00409331 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4292B301F59C9AC00409331 /* Contacts.framework */,
+				A4292B311F59C9AC00409331 /* ContactsUI.framework */,
+				57E30504850C2C2BE1C55F1F /* libPods-BackUp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4292B351F59D08000409331 /* raleway */ = {
+			isa = PBXGroup;
+			children = (
+				A4292B361F59D08000409331 /* OFL.txt */,
+				A4292B371F59D08000409331 /* Raleway-Bold.ttf */,
+				A4292B381F59D08000409331 /* Raleway-ExtraBold.ttf */,
+				A4292B391F59D08000409331 /* Raleway-ExtraLight.ttf */,
+				A4292B3A1F59D08000409331 /* Raleway-Heavy.ttf */,
+				A4292B3B1F59D08000409331 /* Raleway-Light.ttf */,
+				A4292B3C1F59D08000409331 /* Raleway-Medium.ttf */,
+				A4292B3D1F59D08000409331 /* Raleway-Regular.ttf */,
+				A4292B3E1F59D08000409331 /* Raleway-SemiBold.ttf */,
+				A4292B3F1F59D08000409331 /* Raleway-Thin.ttf */,
+			);
+			path = raleway;
+			sourceTree = "<group>";
+		};
+		A4292B4A1F59D90100409331 /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				A4292B4B1F59D90100409331 /* Common UI */,
+			);
+			path = Singletons;
+			sourceTree = "<group>";
+		};
+		A4292B4B1F59D90100409331 /* Common UI */ = {
+			isa = PBXGroup;
+			children = (
+				A4292B4C1F59D90100409331 /* singleton_CommonUI.h */,
+				A4292B4D1F59D90100409331 /* singleton_CommonUI.m */,
+			);
+			path = "Common UI";
+			sourceTree = "<group>";
+		};
+		B16406AA1BF7151E2EBC2713 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48ABF5296F36EF930851088D /* Pods-BackUp.debug.xcconfig */,
+				892EB53001DE2908D04ADC9A /* Pods-BackUp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4292B111F59C89400409331 /* BackUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4292B2C1F59C89400409331 /* Build configuration list for PBXNativeTarget "BackUp" */;
+			buildPhases = (
+				DCA878D9BB813D30ABC27B74 /* [CP] Check Pods Manifest.lock */,
+				A4292B0E1F59C89400409331 /* Sources */,
+				A4292B0F1F59C89400409331 /* Frameworks */,
+				A4292B101F59C89400409331 /* Resources */,
+				7239C16A59103ACC1E7E1374 /* [CP] Embed Pods Frameworks */,
+				E0F3834888E28F108B9E5951 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BackUp;
+			productName = BackUp;
+			productReference = A4292B121F59C89400409331 /* BackUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4292B0A1F59C89400409331 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Inderpal;
+				TargetAttributes = {
+					A4292B111F59C89400409331 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M2Y26RT7BX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A4292B0D1F59C89400409331 /* Build configuration list for PBXProject "BackUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4292B091F59C89400409331;
+			productRefGroup = A4292B131F59C89400409331 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4292B111F59C89400409331 /* BackUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4292B101F59C89400409331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4292B421F59D08000409331 /* Raleway-ExtraBold.ttf in Resources */,
+				A4292B281F59C89400409331 /* LaunchScreen.storyboard in Resources */,
+				A4292B251F59C89400409331 /* Assets.xcassets in Resources */,
+				A4292B401F59D08000409331 /* OFL.txt in Resources */,
+				A4292B441F59D08000409331 /* Raleway-Heavy.ttf in Resources */,
+				A4292B411F59D08000409331 /* Raleway-Bold.ttf in Resources */,
+				A4292B451F59D08000409331 /* Raleway-Light.ttf in Resources */,
+				A4292B461F59D08000409331 /* Raleway-Medium.ttf in Resources */,
+				A4292B431F59D08000409331 /* Raleway-ExtraLight.ttf in Resources */,
+				A4292B491F59D08000409331 /* Raleway-Thin.ttf in Resources */,
+				A4292B481F59D08000409331 /* Raleway-SemiBold.ttf in Resources */,
+				A4292B471F59D08000409331 /* Raleway-Regular.ttf in Resources */,
+				A4292B201F59C89400409331 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7239C16A59103ACC1E7E1374 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BackUp/Pods-BackUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCA878D9BB813D30ABC27B74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E0F3834888E28F108B9E5951 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BackUp/Pods-BackUp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4292B0E1F59C89400409331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4292B4E1F59D90100409331 /* singleton_CommonUI.m in Sources */,
+				A4292B1D1F59C89400409331 /* ViewController.m in Sources */,
+				A4292B231F59C89400409331 /* BackUp.xcdatamodeld in Sources */,
+				A41E4FBE1F605C4B000C2F8A /* VC_Home.m in Sources */,
+				A4292B1A1F59C89400409331 /* AppDelegate.m in Sources */,
+				A4292B171F59C89400409331 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4292B1E1F59C89400409331 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4292B1F1F59C89400409331 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4292B261F59C89400409331 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4292B271F59C89400409331 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4292B2A1F59C89400409331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4292B2B1F59C89400409331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4292B2D1F59C89400409331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48ABF5296F36EF930851088D /* Pods-BackUp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M2Y26RT7BX;
+				GCC_PREFIX_HEADER = /Users/inderpalsingh/Desktop/BackUp/BackUp/PrefixHeader.pch;
+				INFOPLIST_FILE = BackUp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.InderPal.BackUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4292B2E1F59C89400409331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 892EB53001DE2908D04ADC9A /* Pods-BackUp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M2Y26RT7BX;
+				GCC_PREFIX_HEADER = /Users/inderpalsingh/Desktop/BackUp/BackUp/PrefixHeader.pch;
+				INFOPLIST_FILE = BackUp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.InderPal.BackUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4292B0D1F59C89400409331 /* Build configuration list for PBXProject "BackUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4292B2A1F59C89400409331 /* Debug */,
+				A4292B2B1F59C89400409331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4292B2C1F59C89400409331 /* Build configuration list for PBXNativeTarget "BackUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4292B2D1F59C89400409331 /* Debug */,
+				A4292B2E1F59C89400409331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A4292B211F59C89400409331 /* BackUp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A4292B221F59C89400409331 /* BackUp.xcdatamodel */,
+			);
+			currentVersion = A4292B221F59C89400409331 /* BackUp.xcdatamodel */;
+			path = BackUp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A4292B0A1F59C89400409331 /* Project object */;
+}
